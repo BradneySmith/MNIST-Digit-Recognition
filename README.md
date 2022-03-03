@@ -47,14 +47,21 @@ To classify a point in n-dimensional space, the kNN algorithm find the Euclidean
 
 This can be extended to n-dimensional space, where the euclidean distance between 2 points is given by:
 
-&nbsp;  
 <p align="center">
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/39648391/156469474-45c7651a-4989-4f60-a673-ce3fea0b3d5a.png">
 </p>
 
 ## Classifying MNIST Images
 
+To implement the kNN function, simply call the functions define earlier in the correct order. First, values for k, the new datapoint as a 64x1 array, and the corpus of known data should be given as arguments. Then the sorted list of distances should be found between the new datapoint and the existing data. Next, the modal label can be found to classify the image.
 
+<p align="center">
+<img width="491" alt="image" src="https://user-images.githubusercontent.com/39648391/156472428-78eb2185-f062-497a-8a1f-a639c0a338fc.png">
+</p>
+<p align="center">
+<img width="323" alt="image" src="https://user-images.githubusercontent.com/39648391/156472446-42f1c114-2105-4ef8-b6bd-696642cc19cb.png">
+</p>
+  
 ## Classifying Custom Images
 
 Now the kNN function has been written and optimised, it can be tested on images not found in the dataset. A function has been written to read in every image in a directory called 'images' that is inside the same directory as this notebook. It then loops through each image, reads in the pixel values in greyscale, then resizes the image to a grid of 8x8 pixels. Preparing inputs in this way so that they can be used with an existing algorithm is called 'pre-processing'.
