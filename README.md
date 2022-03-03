@@ -32,7 +32,7 @@ The dataset contains 1797 64x1 NumPy arrays, each representing a grid of 8x8 pix
 <img width="290" alt="image" src="https://user-images.githubusercontent.com/39648391/156468618-0661ccff-3f35-4ce8-9030-733ea77910e7.png">
 </p>
 <p align="center">
-<img width="663" alt="image" src="https://user-images.githubusercontent.com/39648391/156468590-b26ad48d-c9ce-453d-a082-982ed66ade8d.png">
+<img width="587" alt="image" src="https://user-images.githubusercontent.com/39648391/156474110-2d2ccfb7-ba4f-4a6e-afd3-4f2003489c18.png">
 </p>
 
 ## Finding the Euclidean Distance in n Dimensions
@@ -40,7 +40,7 @@ The dataset contains 1797 64x1 NumPy arrays, each representing a grid of 8x8 pix
 To classify a point in n-dimensional space, the kNN algorithm find the Euclidean (straight-line) distance between the point and every other point in the dataset. The distances are then sorted in descending order, and the modal class in the first k distances is used to classify the point. In 2-dimensional space, the Euclidean distance can be found using the Pythagorean theorem:
 
 <p align="center">
-<img width="372" alt="image" src="https://user-images.githubusercontent.com/39648391/156469443-c17a7334-ca0a-48e4-87bf-511a7518e443.png">
+<img width="384" alt="image" src="https://user-images.githubusercontent.com/39648391/156474168-7f05bfbd-8e6f-46d3-9450-2fa8af62cb17.png">
 </p>
 &nbsp;  
 &nbsp;  
@@ -48,7 +48,7 @@ To classify a point in n-dimensional space, the kNN algorithm find the Euclidean
 This can be extended to n-dimensional space, where the euclidean distance between 2 points is given by:
 
 <p align="center">
-<img width="525" alt="image" src="https://user-images.githubusercontent.com/39648391/156469474-45c7651a-4989-4f60-a673-ce3fea0b3d5a.png">
+<img width="528" alt="image" src="https://user-images.githubusercontent.com/39648391/156474202-c8dff449-26ab-4048-953f-799a5e82d384.png">
 </p>
 
 ## Classifying MNIST Images
@@ -56,10 +56,10 @@ This can be extended to n-dimensional space, where the euclidean distance betwee
 To implement the kNN function, simply call the functions define earlier in the correct order. First, values for k, the new datapoint as a 64x1 array, and the corpus of known data should be given as arguments. Then the sorted list of distances should be found between the new datapoint and the existing data. Next, the modal label can be found to classify the image.
 
 <p align="center">
-<img width="491" alt="image" src="https://user-images.githubusercontent.com/39648391/156472428-78eb2185-f062-497a-8a1f-a639c0a338fc.png">
+<img width="536" alt="image" src="https://user-images.githubusercontent.com/39648391/156474289-f9dbbfca-3861-453b-964a-6e9edb5df1d3.png">
 </p>
 <p align="center">
-<img width="323" alt="image" src="https://user-images.githubusercontent.com/39648391/156472446-42f1c114-2105-4ef8-b6bd-696642cc19cb.png">
+<img width="373" alt="image" src="https://user-images.githubusercontent.com/39648391/156474319-1555606c-b24c-41d5-b9c7-0b4367613265.png">
 </p>
   
 ## Classifying Custom Images
@@ -70,7 +70,7 @@ Now the kNN function has been written and optimised, it can be tested on images 
 <img width="429" alt="image" src="https://user-images.githubusercontent.com/39648391/156468165-ce680e17-43cd-48ab-845d-13d3d4869dc7.png">
 </p>
 <p align="center">
-<img width="324" alt="image" src="https://user-images.githubusercontent.com/39648391/156468388-04204001-252d-4dbf-a92a-efac8a3bda3f.png">
+<img width="387" alt="image" src="https://user-images.githubusercontent.com/39648391/156474394-627b5457-efc3-435e-8d8b-94446904cdf9.png">
 </p>
 
 
