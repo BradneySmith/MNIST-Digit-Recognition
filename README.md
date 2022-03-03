@@ -1,6 +1,6 @@
-<p align="center">
+<h1 align="center">
   A Vanilla Python Implementation of k-Nearest Neighbors
-</p>
+</h1>
 
 
 ### Overview
