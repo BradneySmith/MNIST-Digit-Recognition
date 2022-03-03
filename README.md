@@ -45,7 +45,7 @@ To classify a point in n-dimensional space, the kNN algorithm find the Euclidean
 &nbsp;  
 &nbsp;  
 
-This can be extended to n-dimensional space, where the euclidean distance between 2 points is given by
+This can be extended to n-dimensional space, where the euclidean distance between 2 points is given by:
 
 &nbsp;  
 <p align="center">
@@ -75,7 +75,7 @@ Some heuristics exist for determining a value for *k* (such as taking the square
 
 This algorithm showed best performance with a *k* value of 1. Typically, such small values of *k* are undesirable since they can lead to unstable decision boundaries. Larger values of *k* smooth out decision boundary, making the algorithm more robust to anomylous values. For the training set used, the accuracies for *k* = 1 and *k* = 2 are identical. Since these both produce the highest accuracy, but *k* = 2 has a slightly more stable decision boundary, this value should be taken forward to use with future unknown data points.
 
-The algorithm also showed a non-linear relationship between the test:train split ratio and the accuracy, with accuracy dipping then seeming to peak around 96.7% for a 25:75 split of test:train. This result was more expected, since lower percentages of test data (such as 25%) leave a greater amount of data available to train the algorithm and hence increase its accuracy. The decrease in accuracy with a 10% and 15% split was less expected, and may be attributed to the algorithm 'learning the noise' of the input data set, which would then be detrimental to classifying the testing data
+The algorithm also showed a non-linear relationship between the test:train split ratio and the accuracy, with accuracy dipping then seeming to peak around 96.7% for a 25:75 split of test:train. This result was more expected, since lower percentages of test data (such as 25%) leave a greater amount of data available to train the algorithm and hence increase its accuracy. The decrease in accuracy with a 10% and 15% split was less expected, and may be attributed to the algorithm 'learning the noise' of the input data set, which would then be detrimental to classifying the testing data.
 
 <p align="center">
 <img width="1065" alt="image" src="https://user-images.githubusercontent.com/39648391/156468453-be8be990-f3aa-4f47-a42d-e2986bcfcd05.png">
