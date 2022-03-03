@@ -4,14 +4,14 @@
 
 This notebook uses the k-Nearest Neighbors algorithm to classify hand-written digits from the *MNIST* dataset.
 The algorithm is implemented from scratch using vanilla Python. The hyperparameters (k, test-train split ratio)
-are then tuned to increase the accuracy of the outputs. Pre-processing for images outside of the MNIST is also
+are then tuned to increase the accuracy of the algorithm. Pre-processing for images outside of the MNIST is also
 present, and is tested on an image of the number 7 drawn in an image editing program.
 
 ## Classification Problem in 2D
 
 The k-Nearest Neighbor method is a useful tool for classification problems. Each data point in a set of data can store several pieces of information. In this example, each array stores 64 values, which represent the brightness value of pixels for each pixel in an 8x8 image. The number of values stored can be thought of as the number of dimensions a data point has. 
 
-Thinking about this graphically, a data point with 2 values can be plot in 2-dimensional space. This idea can be taken further to 3-dimensional space for 3 values, and n-dimensional sapce for n values.
+Thinking about this graphically, a data point with 2 values can be plot in 2-dimensional space. This idea can be taken further to 3-dimensional space for 3 values, and n-dimensional space for n values.
 
 Below is an example in 2D, where some data has been plot representing items of one class in orange, and a different class in green. These form clusters since we assume items of the same class have similar properties.
 
@@ -37,9 +37,8 @@ The dataset contains 1797 64x1 NumPy arrays, each representing a grid of 8x8 pix
 
 ## Finding the Euclidean Distance in n Dimensions
 
-The straight-line distance between two points in space is called the Euclidean distance, and for 2-dimensional space can be found using the Pythagorean theorem:
+To classify a point in n-dimensional space, the kNN algorithm find the Euclidean (straight-line) distance between the point and every other point in the dataset. The distances are then sorted in descending order, and the modal class in the first k distances is used to classify the point. In 2-dimensional space, the Euclidean distance can be found using the Pythagorean theorem:
 
-&nbsp;  
 <p align="center">
 <img width="372" alt="image" src="https://user-images.githubusercontent.com/39648391/156469443-c17a7334-ca0a-48e4-87bf-511a7518e443.png">
 </p>
