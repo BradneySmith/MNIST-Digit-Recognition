@@ -11,7 +11,7 @@ This repository contains an implementation of the k-Nearest Neighbors algorithm 
 
 The notebook serves as an extended explanation of the algorithm: how it works, and the motivation behind its use and implementation. The function and class implementations serve as 'libraries' than can be imported to perform simple k-Nearest Neighbor classifications.
 
-Below is an overview of the contents of the Jupyter Notebook, including the testing, and tuning of the hyperparameters. The dataset used for training and testing was the MNIST dataset provided by Sci-Kit Learn. Pre-processing functionality has also been added and tested on digits not inside of the MNIST dataset, so that image file containing a hand-written digit can be classified using the code. 
+Below is an overview of the contents of the Jupyter Notebook, including the testing, and tuning of the hyperparameters. The dataset used for training and testing was the MNIST dataset provided by Sci-Kit Learn. Pre-processing functionality has also been added and tested on digits not inside of the MNIST dataset, so that  any image file containing a hand-written digit can be classified using the code. 
 
 
 ## Classification Problem in 2D
