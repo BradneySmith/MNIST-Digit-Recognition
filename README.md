@@ -44,8 +44,8 @@ To classify a point in n-dimensional space, the kNN algorithm find the Euclidean
 </p>
 &nbsp;  
 &nbsp;  
-&nbsp;   
-This can be extended to n-dimensional space, where the euclidean distance between 2 points $a = (a_1,a_2,...,a_n)$ and $b = (b_1,b_2,...,b_n)$ is given by
+
+This can be extended to n-dimensional space, where the euclidean distance between 2 points is given by
 
 &nbsp;  
 <p align="center">
