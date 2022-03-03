@@ -1,5 +1,8 @@
-<h1 align="center">A Vanilla Python Implementation of k-Nearest Neighbors</h1>
-<h3 align="center">Applied to MNIST Hand-Written Digit Data</h3>
+<h1 align="center">
+  A Vanilla Python Implementation of k-Nearest Neighbors
+  <h3 align="center">Applied to MNIST Hand-Written Digit Data</h3>**
+</h1>
+
 
 ### Overview
 
