@@ -57,7 +57,7 @@ This can be extended to n-dimensional space, where the euclidean distance betwee
 
 ## Classifying Custom Images
 
-Now the ```knn``` function has been written and optimised, it can be tested on images not found in the dataset at all. A function has been written to read in every image in a directory called 'images' that is inside the same directory as this notebook. It then loops through each image, reads in the pixel values in greyscale, then resizes the image to a grid of 8x8 pixels. Preparing inputs in this way so that they can be used with an existing algorithm is called 'pre-processing'.
+Now the kNN function has been written and optimised, it can be tested on images not found in the dataset. A function has been written to read in every image in a directory called 'images' that is inside the same directory as this notebook. It then loops through each image, reads in the pixel values in greyscale, then resizes the image to a grid of 8x8 pixels. Preparing inputs in this way so that they can be used with an existing algorithm is called 'pre-processing'.
 
 <p align="center">
 <img width="429" alt="image" src="https://user-images.githubusercontent.com/39648391/156468165-ce680e17-43cd-48ab-845d-13d3d4869dc7.png">
